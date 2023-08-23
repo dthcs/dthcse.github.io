@@ -2,9 +2,9 @@
 ## _Chatting Bot Like Design (Whatsapp like interface)_
 
 
-- [Running Site](https://vinayak-09.github.io/)
+- [Running Site](https://dthcs.github.io/)
 
-[![N|Solid](images/demo.gif)](https://vinayak-09.github.io/)
+[![N|Solid](images/demo.png)](https://dthcs.github.io/)
 
 ## Technologies Used
 
@@ -28,10 +28,7 @@
 
 <br>
 
-[![N|Solid](images/telegram.svg)](https://t.me/vinayak_09)
-
-
-[![N|Solid](images/instagram.svg)](https://instagram.com/vinayak_patil_09)
+[![N|Solid](images/linkedin.svg)](https://www.linkedin.com/in/dthcsc/)
 
 
 <br>

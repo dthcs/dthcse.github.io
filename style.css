@@ -15,7 +15,7 @@ body{
 nav{
     display: flex;
     height: 6%;
-    background-color: #202c33;
+    background-color: #162a35;
 }
 
 .navbar{
@@ -134,7 +134,7 @@ nav{
     text-align: start;
     width: auto;
     padding: 10px;
-    background-color: #202c33;
+    background-color: #3c5462;
     border-radius: 0px 15px 15px;
 }
 

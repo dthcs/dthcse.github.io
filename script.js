@@ -1,5 +1,5 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "Feel free to use contact information below to get in touch with me <br><br> <div class='social'> <a target='_blank' href='tel:+82-010-xxxx-xxxx'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>Not available</label></div> </a> <a href='mailto:doanhuyendth@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/dthcs'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://www.facebook.com/doanhuyendth/'> <div class='socialItem'><img class='socialItemI' src='images/facebook-svgrepo-com.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/dthcsc/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
+var contactString = "Feel free to use contact information below to get in touch with me <br><br> <div class='social'> <a target='_blank' href='tel:+82-010-xxxx-xxxx'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'>Not available</label></div> </a> <a href='mailto:doanhuyendth@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/dthcs'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://www.facebook.com/dthcsm'> <div class='socialItem'><img class='socialItemI' src='images/facebook-svgrepo-com.svg' alt=''> </div> </a> <a href='https://www.linkedin.com/in/dthcsc/' target='_blank' rel='noopener noreferrer'> <div class='socialItem'><img class='socialItemI' src='images/linkedin.svg' alt=''></div> </a> </div>";
 var resumeString = "<img src='images/resumeThumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Doan Huyen.pdf</label></div><a href='https://drive.google.com/file/d/1jQxLxrDCg5hXl10rSFXnWCUdh63CPAbl/view?usp=drive_link' download='CV.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202405.34241565317!2d126.97413929999999!3d37.56487609999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2012d5c39cf%3A0x7e11eca1405bf29b!2sSeoul!5e0!3m2!1sen!2skr!4v1692831696861!5m2!1sen!2skr' class='map'></iframe></div><label class='add'><address>xxx<br>xxx<br>Seoul, Korea</address>";
 function startFunction() {
@@ -109,7 +109,7 @@ function waitAndResponce(inputText) {
             break;
         default:
             setTimeout(() => {
-                sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know more about usage.");
+                sendTextMessage("Sorry I couldn't catch you...😢<br>Send 'help' to know more about usage.");
             }, 2000);
             break;
     }
